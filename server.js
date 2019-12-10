@@ -62,7 +62,7 @@ const deleteJson = ({ id, filename }) => {
 
       let jsonData = data.toString();
       jsonData = JSON.parse(jsonData);
-      jsonData = jsonData.filter(item => item.id !== id);
+      jsonData = jsonData.filter(item => item.id != id);
 
       let str = JSON.stringify(jsonData);
       fs.writeFile(path.join(__dirname, filename), str, err => {
