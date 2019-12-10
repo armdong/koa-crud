@@ -1,0 +1,26 @@
+{
+  "name": "koa-crud",
+  "version": "1.0.0",
+  "description": "basic crud operates with koa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armdong/koa-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armdong/koa-crud/issues"
+  },
+  "homepage": "https://github.com/armdong/koa-crud#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
